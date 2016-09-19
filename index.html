@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<title>API Test</title>
+	</head>
+<body>
+	<h1>Location Finder</h1>
+	<div id="main">
+	<input type='text' id='location'><button onclick="findLocation()">Find location</button>
+	<p id='address'>Address: </p>
+	<p id='lat'>Lattitude: </p>
+	<p id='lng'>Longitude: </p>
+	</div>
+	<div id="map">	</div>
+
+	<p> For a data collecting in my project I was looking into the data usage from windows 10 as it has the amount of data used per application, this could be a way of knowing if you are spending too much time on certain application/games but not certain websites. Ideally I’d like to have both in my website but having one of these would be a better strategy to make a functional website. So I looked into some chrome extensions that track webpage usage which looked like it would help my idea function in the collecting of data. The next issue is getting the graphic to function as intended with the data that I collect. </p>
+	
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBQfvr4TNIXEcKPHmZDOoAWd8SJVo64o1g&callback=initMap"
+    async defer></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+	<script src="js/script.js"></script>
+</body>
+</html>
